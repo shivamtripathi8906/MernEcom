@@ -1,0 +1,38 @@
+.main-container{
+  background-color: #0d0056;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 141px 80px 141px;
+}
+.first-container{
+  max-width: 28%;
+  color: white;
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+}
+.second-container{
+  max-width: 28%;
+  color: white;
+ background-color: rgb(107, 84, 253);
+}
+.rest-container{
+  max-width: 28%;
+  color: white;
+  background-color: rgb(28, 13, 113);
+}
+.ser-header{
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0 10px 0;
+}
+.ser-paragraph{
+  margin: 10px 0 18px 0;
+}
+.ser-link{
+  color: white;
+  font-size: 1.22rem;
+  font-weight: 500;
+}
