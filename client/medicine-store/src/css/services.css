@@ -4,27 +4,51 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 80px 141px 80px 141px;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
 }
 .first-container{
-  max-width: 28%;
+  max-width: 32%;
   color: white;
   opacity: 1;
   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  height: 21rem;
+  margin-bottom: 2rem;
 }
 .second-container{
-  max-width: 28%;
+  max-width: 32%;
   color: white;
  background-color: rgb(107, 84, 253);
+ padding: 30px;
+ padding-bottom: 2rem;
+ display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  height: 21rem;
+  margin-bottom: 2rem;
 }
 .rest-container{
-  max-width: 28%;
+  max-width: 32%;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  padding: 30px;
+  padding-bottom: 2rem;
   background-color: rgb(28, 13, 113);
+  height: 21rem;
+  margin-bottom: 2rem;
 }
 .ser-header{
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 500;
   margin: 10px 0 10px 0;
 }
@@ -35,4 +59,50 @@
   color: white;
   font-size: 1.22rem;
   font-weight: 500;
+
+}
+.ser-link1{
+  color: white;
+  font-size: 19px;
+  font-weight: 500;
+  border: 1px solid rgb(107, 84, 253);
+  padding: .8rem 2rem .8rem 2rem;
+  background-color: rgb(107, 84, 253);
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+}
+.number-part{
+  height: 50px;
+  width: 50px;
+  display: flex;
+  border-radius: .6rem;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(107, 84, 253);
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+.number-part1{
+  height: 50px;
+  width: 50px;
+  display: flex;
+  border-radius: .6rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d0056;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+.ser-header1{
+  font-size: 25px;
+}
+.ser-paragraph{
+  font-weight: 600;
+  font-size: 1.05rem;
+  line-height: 1.5rem;
+}
+
+@media(max-width:1000px){
+  
 }

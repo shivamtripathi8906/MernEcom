@@ -7,7 +7,7 @@ function Services() {
     <div>
       <div className="main-container page-width">
         <div className="first-container">
-          <div className="ser-header">
+          <div className="ser-header1">
             <h2>All The Service You Will Get</h2>
           </div>
           <div className="ser-paragraph">
@@ -16,12 +16,12 @@ function Services() {
               medications for the best substance.
             </p>
           </div>
-          <Link className="ser-link" to="/services">
+          <Link className="ser-link1" to="/services">
             Learn More
           </Link>
         </div>
         <div className="second-container">
-          <div className="number-part">2</div>
+          <div className="number-part1">1</div>
           <div className="ser-header">
             <h2>Easy to use with us</h2>
           </div>
@@ -51,7 +51,7 @@ function Services() {
           </Link>
         </div>
         <div className="rest-container">
-          <div className="number-part">2</div>
+          <div className="number-part">3</div>
           <div className="ser-header">
             <h2>Med and refill reminder</h2>
           </div>
@@ -66,7 +66,7 @@ function Services() {
           </Link>
         </div>
         <div className="rest-container">
-          <div className="number-part">2</div>
+          <div className="number-part">4</div>
           <div className="ser-header">
             <h2>Drug interaction warning</h2>
           </div>
@@ -81,7 +81,7 @@ function Services() {
           </Link>
         </div>
         <div className="rest-container">
-          <div className="number-part">2</div>'
+          <div className="number-part">5</div>  
           <div className="ser-header">
             <h2>24/7 App Support</h2>
           </div>
