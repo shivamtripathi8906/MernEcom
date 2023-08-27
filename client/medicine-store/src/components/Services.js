@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Services() {
   return (
     <div>
-      <div className="main-container page-width">
+      <div className="main-container section-padding">
         <div className="first-container">
           <div className="ser-header1">
             <h2>All The Service You Will Get</h2>

@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "name":"Vitamin C+",
+      "type":["Muscle Care","Vitamins"],
+      "image":"src/asset/pro1.jpg" 
+    },
+    {
+      "name":"Vitamin C",
+      "type":["Personal Care","Vitamins"],
+      "image":"src/asset/pro2.jpg" 
+    },
+    {
+      "name":"Vitamin D",
+      "type":["Health","Vitamins"],
+      "image":"src/asset/pro3.jpg" 
+    },
+    {
+      "name":"Vitamin C+",
+      "type":["Eye Care","Vitamins"],
+      "image":"src/asset/pro4.jpg" 
+    },
+    {
+      "name":"Vitamin C",
+      "type":["Body Care","Vitamins"],
+      "image":"src/asset/pro5.jpg" 
+    },
+    {
+      "name":"Vitamin D",
+      "type":["Face Care","Vitamins"],
+      "image":"src/asset/pro6.jpg" 
+    }
+  ]
+}

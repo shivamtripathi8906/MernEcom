@@ -1,0 +1,58 @@
+.labimg-container {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  column-gap: 70px;
+  position: relative;
+  z-index: 0;
+  
+}
+.labimg-container .img-part {
+  width: 50%;
+}
+.labimg-container .info-part {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.labimg-container .info-part h2 {
+  width: 65%;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+.labimg-container .info-part p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+.contain-item {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  padding: 20px 40px;
+  border-radius: 10px;
+  z-index: 10;
+  right: 14%;
+  bottom: 23%;
+  background-color: #6b54fd;
+  column-gap: 40px;
+}
+.contain-item .item {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+.item .main-text {
+  font-size: 60px;
+  font-weight: 500;
+}
+.item .bottom-text {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5em;
+}
