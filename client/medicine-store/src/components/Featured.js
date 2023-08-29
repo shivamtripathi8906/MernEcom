@@ -1,25 +1,23 @@
-import React, { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import "../css/Featured.css";
-import Product from "./Product";
-import "../database/products.json"
+
+
 function Featured() {
-  // const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState(null);
 
-  // useEffect(() => {
-  //   async function fetchDate() {
-  //     try {
-  //       const response = await fetch('../database/products.json');
-  //       const data = await response.json();
-  //       setProducts(data.products);
-  //     } catch (error) {
-  //       console.log('Error fetching data:',error);
-  //     }
-  //   }
+  useEffect(() => {
+    import('../database/products.json')
+      .then(data => {
+        setProducts(data.default);
+      })
+      .catch(error => {
+        console.error('Error fetching local JSON data:', error);
+      });
+  }, []);
 
-  //   fetchDate();
-  // },[]);
-  fetch("../database/products.json").then(response=>response.json()).then(data=>console.log(data))
-  // console.log(products)
+  console.log(products);
+  
+
   return (
     <div className="featured-container section-padding">
       <div className="featured-title">
@@ -34,7 +32,8 @@ function Featured() {
         <button >Personal Care</button>
         <button >Muscle Care</button>
       </div>
-      <Product />
+      
+     
     </div>
   );
 }
