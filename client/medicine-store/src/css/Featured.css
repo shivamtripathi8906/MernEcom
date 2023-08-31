@@ -37,3 +37,8 @@
 .product-categories button.active {
   border-bottom: 4px solid #fff;
 }
+.products-filtered{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

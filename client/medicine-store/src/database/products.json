@@ -1,34 +1,46 @@
 {
   "products": [
     {
+      "id":"1",
       "name":"Vitamin C+",
       "type":["Muscle Care","Vitamins"],
-      "image":"src/asset/pro1.jpg" 
+      "image":"./asset/pro1.jpg" 
     },
     {
+      "id":"2",
       "name":"Vitamin C",
       "type":["Personal Care","Vitamins"],
-      "image":"src/asset/pro2.jpg" 
+      "image":"./asset/pro2.jpg" 
     },
     {
+      "id":"3",
       "name":"Vitamin D",
       "type":["Health","Vitamins"],
-      "image":"src/asset/pro3.jpg" 
+      "image":"./asset/pro3.jpg" 
     },
     {
+      "id":"4",
       "name":"Vitamin C+",
       "type":["Eye Care","Vitamins"],
-      "image":"src/asset/pro4.jpg" 
+      "image":"./asset/pro4.jpg" 
     },
     {
+      "id":"5",
       "name":"Vitamin C",
       "type":["Body Care","Vitamins"],
-      "image":"src/asset/pro5.jpg" 
+      "image":"./asset/pro5.jpg" 
     },
     {
+      "id":"6",
       "name":"Vitamin D",
       "type":["Face Care","Vitamins"],
-      "image":"src/asset/pro6.jpg" 
+      "image":"./asset/pro6.jpg" 
+    },
+    {
+      "id":"7",
+      "name":"Vitamin D",
+      "type":["Medical Equipment","Vitamins"],
+      "image":"./asset/pro6.jpg"
     }
   ]
 }

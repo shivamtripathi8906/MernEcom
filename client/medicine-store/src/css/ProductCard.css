@@ -1,0 +1,14 @@
+.mainContainer{
+  width: 20rem;
+  height : auto;
+  border: 1px solid black;
+  
+}
+.imageContainer{
+  width: 100%;
+}
+.imageContainer > img{
+  width: 100%;
+  object-fit:cover;
+  height: 100%;
+}
