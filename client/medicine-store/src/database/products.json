@@ -6,12 +6,7 @@
       "type":["Muscle Care","Vitamins"],
       "image":"./asset/pro1.jpg" 
     },
-    {
-      "id":"2",
-      "name":"Vitamin C",
-      "type":["Personal Care","Vitamins"],
-      "image":"./asset/pro2.jpg" 
-    },
+    
     {
       "id":"3",
       "name":"Vitamin D",

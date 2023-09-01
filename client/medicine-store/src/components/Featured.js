@@ -19,7 +19,6 @@ function Featured() {
       });
   }, []);
 
-
   
   useEffect(()=>{
     setFilter([]);
@@ -43,7 +42,7 @@ function Featured() {
         <button onClick={()=>setType("Body Care")}  name="Body Care">Body Care</button>
         <button onClick={()=>setType("Medical Equipment")}  name="Medical Equipment">Medical Equiment</button>
         <button onClick={()=>setType("Health")}  name="Health">Health</button>
-        <button onClick={()=>setType("Personal Care")}  name="Personal Care">Personal Care</button>
+        {/* <button onClick={()=>setType("Personal Care")}  name="Personal Care">Personal Care</button> */}
         <button onClick={()=>setType("Muscle Care")}  name="Muscle Care">Muscle Care</button>
       </div>
       <div className="products-filtered"> 
