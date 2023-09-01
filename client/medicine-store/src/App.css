@@ -6,9 +6,9 @@
   padding: 0;
   text-decoration: none;
 }
-.section-padding{
-  padding-right: 176px;
-  padding-left: 176px;
+.section-padding {
+  padding-right: 170px;
+  padding-left: 170px;
   padding-top: 110px;
   padding-bottom: 110px;
 }
@@ -19,4 +19,14 @@
 
 .text-lightpurple {
   color: #6b54fd;
+}
+
+.link {
+  color: #6b54fd;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2em;
+  text-decoration: none;
+  transition: color .3s;
 }

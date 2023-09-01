@@ -1,8 +1,8 @@
-import React from "react";
 import "../css/services.css";
 import { Link } from "react-router-dom";
 
 function Services() {
+  const path = "/services";
   return (
     <div>
       <div className="main-container section-padding">
@@ -16,7 +16,7 @@ function Services() {
               medications for the best substance.
             </p>
           </div>
-          <Link className="ser-link1" to="/services">
+          <Link className="ser-link1" to={path}>
             Learn More
           </Link>
         </div>
@@ -31,7 +31,7 @@ function Services() {
               nibh.
             </p>
           </div>
-          <Link className="ser-link" to="/services">
+          <Link className="ser-link" to={path}>
             Learn More
           </Link>
         </div>
@@ -46,7 +46,7 @@ function Services() {
               medications for the best substance.
             </p>
           </div>
-          <Link className="ser-link" to="/services">
+          <Link className="ser-link" to={path}>
             Learn More
           </Link>
         </div>
@@ -61,7 +61,7 @@ function Services() {
               nibh.
             </p>
           </div>
-          <Link className="ser-link" to="/services">
+          <Link className="ser-link" to={path}>
             Learn More
           </Link>
         </div>
@@ -76,12 +76,12 @@ function Services() {
               medications for the best substance.
             </p>
           </div>
-          <Link className="ser-link" to="/services">
+          <Link className="ser-link" to={path}>
             Learn More
           </Link>
         </div>
         <div className="rest-container">
-          <div className="number-part">5</div>  
+          <div className="number-part">5</div>
           <div className="ser-header">
             <h2>24/7 App Support</h2>
           </div>
@@ -91,7 +91,7 @@ function Services() {
               nibh.
             </p>
           </div>
-          <Link className="ser-link" to="/services">
+          <Link className="ser-link" to={path}>
             Learn More
           </Link>
         </div>
